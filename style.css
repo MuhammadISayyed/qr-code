@@ -58,9 +58,43 @@ body {
   background-color: var(--color-light-gray);
 }
 
-.container {
+.card {
   background-color: var(--color-white);
-  width: 50%;
+  /* width: 50%; */
+  width: 20rem;
+  height: 31rem;
   margin: 0 auto;
-  margin-top: 5rem;
+  /* margin: 20vh 20vw; */
+  /* vertical-align: middle; */
+  /* place-self: center; */
+  /* place-content: center; */
+  /* place-items: center; */
+  margin-top: 9rem;
+  text-align: center;
+  border-radius: 4%;
+  margin-block-end: 1rem;
+  /* padding: 1.4rem 0; */
+}
+
+.qr-img {
+  display: inline-block;
+  width: 18rem;
+  height: 18rem;
+  border-radius: 4%;
+  margin-block-start: 1rem;
+  margin-block-end: 1rem;
+}
+
+.qr-title {
+  font-weight: 700;
+  color: var(--color-dark-blue);
+  padding-inline: 2rem;
+  font-size: 1.3rem;
+  margin-block-end: 0.8rem;
+}
+
+.secondary-text {
+  font-weight: 400;
+  color: var(--color-grayish-blue);
+  padding-inline: 1rem;
 }
